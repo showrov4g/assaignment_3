@@ -36,7 +36,7 @@
 
 <body class="font-manrope">
     <!-- -----header section----- -->
-    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#fff]">
+    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#fff] pb-12">
         <div class="w-11/12 mx-auto">
             <!-- navbar  -->
             <div class="navbar py-7">
@@ -118,27 +118,27 @@
                 <!-- ---content--- -->
                 <div class="flex flex-col lg:flex-row gap-5 my-4">
                     <!-- ----text--- -->
-                    <div class="flex-1 space-y-9">
-                        <div class="space-y-8 text-center lg:text-left">
+                    <div class="flex-1 space-y-9 ">
+                        <div class="space-y-8 lg:text-left">
                             <button
-                                class="py-2 px-5 bg-white text-base font-bold rounded-full flex items-center gap-2"><i
+                                class="lg:mx-0 mx-auto  py-2 px-5 bg-white text-base font-bold rounded-full flex items-center  gap-2"><i
                                     class="fa-solid fa-arrow-right"></i>About us<button>
-                                    <h1 class="text-2xl md:text-5xl font-bold text-[#212121]">We design thoughtful,
-                                        liveable
-                                        spaces</h1>
-                                    <p class="text-sm md:text-base text-[#494949]">The barn house captivates with its
-                                        blend of
-                                        rustic charm and
-                                        <br class="hidden md:block">modern sophistication, featuring
-                                        weathered wood, sleek metal accents.
-                                    </p>
+                                    <div class="space-y-5">
+                                        <h1 class="text-2xl md:text-5xl lg:text-left font-extrabold text-[#212121]">We
+                                            design thoughtful, liveable spaces</h1>
+                                        <p class="text-sm md:text-base text-[#494949] lg:text-left">The barn house
+                                            captivates with its blend of rustic charm and
+                                            <br class="hidden md:block">modern sophistication, featuring weathered wood,
+                                            sleek metal accents.
+                                        </p>
+                                    </div>
                         </div>
-                        <div class="flex flex-col md:flex-row lg:flex-col gap-5 lg:gap-2 md:space-y-0 lg:space-y-5">
+                        <div class="flex flex-col md:flex-row lg:flex-col gap-5 lg:gap-2 md:space-y-0 lg:space-y-5 ">
                             <div
-                                class="flex items-center md:items-start lg:items-center justify-start gap-5 bg-white rounded-lg p-5 md:p-4 lg:p-5">
+                                class="flex items-start lg:items-center justify-start gap-5 bg-white rounded-lg p-5 md:p-4 lg:p-6">
                                 <!-- img  -->
                                 <div>
-                                    <img src="./assets/commercial.png" alt="">
+                                    <img src="./assets/commercial.png" alt="" class="">
                                 </div>
                                 <!-- text  -->
                                 <div>
@@ -151,7 +151,7 @@
                             </div>
                             <!-- -------------------- -->
                             <div
-                                class="flex items-center md:items-start lg:items-center justify-start gap-5 bg-white rounded-lg p-5 md:p-4 lg:p-5">
+                                class="flex items-start lg:items-center justify-start gap-5 bg-white rounded-lg p-5 md:p-4 lg:p-6">
                                 <!-- img  -->
                                 <div>
                                     <img src="./assets/residential.png" alt="">
@@ -167,8 +167,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex-1">
-                        <img src="./assets/Rectangle.png" alt="" class="w-11/12 mx-auto">
+                    <div class="flex-1 w-full">
+                        <img src="./assets/Rectangle.png" alt="" class="w-full lg:w-11/12 mx-auto">
                     </div>
                 </div>
             </div>
@@ -223,11 +223,13 @@
                 </div>
                 <div class="space-y-5">
                     <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Our Works Process</h1>
-                    <p>At the heart of our success is a streamlined and efficient work process designed to deliver exceptional results. <br>Our approach is built on a foundation of clarity, collaboration, and continuous improvement:</p>
+                    <p>At the heart of our success is a streamlined and efficient work process designed to deliver
+                        exceptional results. <br>Our approach is built on a foundation of clarity, collaboration, and
+                        continuous improvement:</p>
                 </div>
             </div>
             <!-- card section  -->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-12">
                 <!-- ----------1--------- -->
                 <div class="bg-[#E7C1D3] p-5 rounded-xl">
                     <img src="./assets/concept.png" alt="">
@@ -238,7 +240,7 @@
                 <div class="bg-[#EFDA6E] p-5 rounded-xl">
                     <img src="./assets/flow-chart.png" alt="">
                     <h1 class="font-extrabold text-[#1C1C1C] text-xl">Design Process</h1>
-                    <p>Design process is a systematic approach used to create solutions that are  functional.</p>
+                    <p>Design process is a systematic approach used to create solutions that are functional.</p>
                 </div>
                 <!-- ---------------3----------- -->
                 <div class="bg-[#A4DAC3] p-5 rounded-xl">
@@ -250,13 +252,72 @@
                 <div class="bg-[#77AAEA] p-5 rounded-xl">
                     <img src="./assets/budget-planning.png" alt="">
                     <h1 class="font-extrabold text-[#1C1C1C] text-xl">Budget Planning</h1>
-                    <p>Budget planning is a critical financial management process that involves creating a detailed plan.</p>
+                    <p>Budget planning is a critical financial management process that involves creating a detailed
+                        plan.</p>
                 </div>
-             </div>
+            </div>
         </div>
 
     </section>
+    <!-- portfolio section  -->
+    <section class="my-20">
+        <div class="w-11/12 mx-auto">
+            <!-- text -->
+            <div class="text-center space-y-4 ">
+                <div class="flex justify-center items-center">
+                    <button
+                        class="py-2 px-5 bg-bg-custom bg-opacity-35 text-base font-bold rounded-full flex items-center gap-2"><i
+                            class="fa-solid fa-arrow-right"></i>Explore our Latest works<button>
+                </div>
+                <div class="space-y-5">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Our Latest Portfolio</h1>
+                    <p>We’re excited to share our latest portfolio, showcasing a diverse range of projects that
+                        highlight our commitment to <br>innovation and excellence. From cutting-edge technology
+                        solutions to stunning design work,</p>
+                </div>
+            </div>
+            <!-- card section  -->
+            <div class="flex items-center justify-evenly gap-5 my-10 flex-wrap ">
+                <div class="grow flex items-center gap-5 border rounded-2xl shadow-xl p-5 ">
+                    <img src="./assets/img1.png" alt="">
+                    <div class="space-y-6">
+                        <h1 class="text-base md:text-lg lg:text-xl font-extrabold text-[#494949]">Commercial
+                        </h1>
+                        <p class="text-base text-[#737373]">Our commercial offerings are designed to meet the dynamic
+                            <br> needs of businesses in today’s fast-paced market. Whether <br> you’re seeking tailored
+                            solutions
+                        </p>
+                        <a href="#" class="text-lg font-extrabold flex items-center gap-2">View Details<i
+                                class="fa-solid fa-arrow-right bg-bg-custom text-base w-6 h-6 flex items-center justify-center rounded-full -rotate-45"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="grow-0 p-5 shadow-xl rounded-2xl border ">
+                    <img src="./assets/img2.png" alt="">
+                </div>
+                <!-- -----------  -->
+                <div class="p-5 shadow-xl rounded-2xl border ">
+                    <img src="./assets/img3.png" alt="" class="w-full">
+                </div>
+                <div class=" flex items-center gap-5 border rounded-2xl shadow-xl p-5 pr-12">
+                    <img src="./assets/img4.png" alt="">
+                    <div class="space-y-6 ">
+                        <h1 class="text-base md:text-lg lg:text-xl font-extrabold text-[#494949]">Commercial
+                        </h1>
+                        <p class="text-base text-[#737373]">Our commercial offerings are designed to <br>meet the dynamic needs of businesses <br>in today’s fast-paced.
+                        </p>
+                        <a href="#" class="text-lg font-extrabold flex items-center gap-2">View Details<i
+                                class="fa-solid fa-arrow-right bg-bg-custom text-base w-6 h-6 flex items-center justify-center rounded-full -rotate-45"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+                <div class="p-5 shadow-xl rounded-2xl border ">
+                    <img src="./assets/img5.png" alt="">
+                </div>
 
+            </div>
+    </section>
 
 
 </body>
